@@ -7,7 +7,8 @@ with open("README.md", "r") as file:
 setup(
     name='rss-reader',
     version='4.0',
-    packages=['Rss_Parser'],
+    namespace_packages=['Rss_Parser']
+    packages=find_packages(),
     description='Python RSS reader',
     long_description=description,
     long_description_content_type='text/markdown',
