@@ -7,7 +7,7 @@ with open("README.md", "r") as file:
 setup(
     name='rss-reader',
     version='4.0',
-    packages=['Rss_Parser', 'argparser_rss'],
+    packages=['Rss_Parser'],
     description='Python RSS reader',
     long_description=description,
     long_description_content_type='text/markdown',
