@@ -4,7 +4,8 @@ import Cache_helper
 import to_pdf
 import to_epub
 
-
+THIS_DIRECTORY = os.path.abspath(os.path.dirname(__file__))
+sys.path.append(THIS_DIRECTORY)
 
 
 def main():
